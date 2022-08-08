@@ -2,7 +2,7 @@
 
 <p>Bootcamp Santander através da plataforma Dio.me </p>
 <br>
-<p>Desafio ministrado por<Strong>Camila Cavalcante </Strong></p>
+<p>Desafio ministrado por <Strong>Camila Cavalcante </Strong></p>
 
 <br>
 <h3> ✍Sobre o desafio </h3>
