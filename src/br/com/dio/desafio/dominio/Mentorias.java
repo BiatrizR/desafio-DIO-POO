@@ -3,7 +3,7 @@ package br.com.dio.desafio.dominio;
 import java.time.LocalDate;
 //criando a classe
 public class Mentorias {
-    //definindo atributos, com modificadores de acesso(public/private)
+    //definindo atributos, com modificadores de acesso(public/private/protect)
     private String titulo;
     private String descricao;
     private LocalDate data;

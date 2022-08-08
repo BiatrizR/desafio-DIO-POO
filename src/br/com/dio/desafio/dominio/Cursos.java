@@ -2,7 +2,7 @@ package br.com.dio.desafio.dominio;
 
 //criando a classe
 public class Cursos {
-    //definindo atributos, com modificadores de acesso(valor local)
+    //definindo atributos, com modificadores de acesso(private/public/protect)
    private String titulo;
    private String descricao;
    private int cargaHoraria;
