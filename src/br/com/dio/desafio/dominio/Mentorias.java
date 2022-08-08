@@ -1,43 +1,37 @@
 package br.com.dio.desafio.dominio;
 
 import java.time.LocalDate;
-//criando a classe
-public class Mentorias {
+ //criando a  com extensão da classe conteudo
     //definindo atributos, com modificadores de acesso(public/private/protect)
-    private String titulo;
-    private String descricao;
-    private LocalDate data;
 
-    public String getTitulo() {
-        return titulo;
-    }
+   public class Mentorias extends Conteudo{
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
+        private LocalDate data;
 
-    public String getDescricao() {
-        return descricao;
-    }
+        @Override
+        public double calcularXp() {
+            return XP_PADRAO + 20d;
+        }
 
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
+        public Mentorias() {
+        }
 
-    public LocalDate getData() {
-        return data;
-    }
+        public LocalDate getData() {
+            return data;
+        }
 
-    public void setData(LocalDate data) {
-        this.data = data;
-    }
+        public void setData(LocalDate data) {
+            this.data = data;
+        }
 
-    @Override
-    public String toString() {
-        return "Mentorias{" +
-                "titulo='" + titulo + '\'' +
-                ", descricao='" + descricao + '\'' +
-                ", data=" + data +
-                '}';
-    }
+        @Override
+        public String toString() {
+            return "Mentoria{" +
+                    "titulo='" + getTitulo() + '\'' +
+                    ", descricao='" + getDescricao() + '\'' +
+                    ", data=" + data +
+                    '}';
+        }
+
+
 }
